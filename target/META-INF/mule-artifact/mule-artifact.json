@@ -1,0 +1,41 @@
+{
+  "configs": [
+    "retrieveconsolidatedroutesandschedules-mobileapp-xpapi.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:retrieveconsolidatedroutesandschedules-mobileapp-xpapi:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api/libraries/common/commonBusiness-library.raml",
+        "api/libraries/common/dataTypes/common-error-dataType.raml",
+        "api/libraries/common/examples/400Response-example.json",
+        "api/libraries/common/examples/404Response-example.json",
+        "api/libraries/common/examples/500Response-example.json",
+        "api/libraries/common/traits/queryParams-companyName-traits.raml",
+        "api/libraries/common/traits/queryParams-departureLocation-traits.raml",
+        "api/libraries/common/traits/queryParams-destinationLocation-traits.raml",
+        "api/libraries/common/traits/queryParams-requestTimezone-traits.raml",
+        "api/libraries/common/traits/transactionId-header-traits.raml",
+        "api/libraries/routes/dataTypes/getRoutes-200Response-dataType.raml",
+        "api/libraries/routes/examples/getRoutes-200Response-example.json",
+        "api/libraries/routes/routes-library.raml",
+        "api/libraries/schedules/dataTypes/getSchedules-200Response-dataType.raml",
+        "api/libraries/schedules/examples/getSchedules-200Response-example.json",
+        "api/libraries/schedules/schedules-library.raml",
+        "api/retrieveconsolidatedroutesandschedules-mobileapp-xpapi.raml",
+        "log4j2.xml",
+        "retrieveconsolidatedroutesandschedules-mobileapp-xpapi.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
